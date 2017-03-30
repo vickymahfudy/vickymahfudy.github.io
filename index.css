@@ -1,0 +1,10 @@
+body{
+	background-image:url("background.jpg");
+}
+nav{
+	background-image:url("navbg.jpg");
+}
+#Carousel{
+	margin:0 auto;
+	width:800px;
+}
