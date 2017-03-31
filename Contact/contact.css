@@ -1,0 +1,20 @@
+body{
+	background-image:url("background.jpg");
+}
+nav{
+	background-image:url("navbg.jpg");
+}
+body{
+	background-color: skyblue;
+}
+h1{
+	font: "Calibri";
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+table{
+	font-family: times;
+	font-weight: bold;
+}

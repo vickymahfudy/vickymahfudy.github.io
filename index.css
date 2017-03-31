@@ -4,10 +4,6 @@ body{
 nav{
 	background-image:url("navbg.jpg");
 }
-#Carousel{
-	margin:0 auto;
-	width:800px;
-}
 .pembatas{
 	border:solid 1px #3b5998;
 	padding: 25px 25px 25px 25px;
