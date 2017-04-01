@@ -1,8 +1,8 @@
 body{
-	background-image:url("background.jpg");
+	background-image:url("../background.jpg");
 }
 nav{
-	background-image:url("navbg.jpg");
+	background-image:url("../navbg.jpg");
 }
 body{
 	background-color: skyblue;
