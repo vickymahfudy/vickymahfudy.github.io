@@ -43,34 +43,34 @@ API
 
 2. Rekap kuliah per semester
     <br>`GET /rekappersemester/IDMATAKULIAH`
-<br>
+
 | __nama_ruang__ | __pertemuan_ke__ | __jam_mulai__ | __jam_selesai__ |
 |:---------------|:-----------------|:--------------|:----------------|
 | IF-107a        | 1                | 10.00         | 12.30           |
 | LP2            | 2                | 10.00         | 12.30           |
-<br>
+
 3. Rekap kuliah per pertemuan
     <br>`GET /rekappertemuan/IDMATAKULIAH/PERTEMUANKE`
-<br>
+
 | __nama_ruang__ | __nomorinduk__ | __waktu_absen__ | __masuk_or_keluar__ |
 |----------------|----------------|-----------------|---------------------|
 | IF-107a        | 05111540000105 | 10.03           | Masuk               |
 | IF-107a        | 05111540000999 | 10.15           | Masuk               |
 | IF-107a        | 05111540000105 | 12.35           | Keluar              |
-<br>
+
 4. Rekap per mahasiswa per kuliah (BELUM BISA)
     <br>`GET /rekapmahasiswa/NRP/IDMATAKULIAH`
-<br>
+
 | __pertemuan_ke__ | __waktu_absen__ | __masuk_or_keluar__ |
 |------------------|-----------------|---------------------|
 | 1                | 10.03           | Masuk               |
 | 1                | 12.35           | Keluar              |
 | 2                | 10.13           | Masuk               |
 | 2                | 12.45           | Keluar              |
-<br>
+
 5. Rekap per mahasiswa per semester (BELUM BISA)
     <br>`GET /rekapmahasiswasemester/NRP/SEMESTER`
-<br>
+
 | __nama_matkul__ | __pertemuan_ke__ | __waktu_absen__ | __masuk_or_keluar__ |
 |-----------------|------------------|-----------------|
 | PBKK            | 1                | 10.03           | Masuk               |
@@ -79,7 +79,7 @@ API
 | PBKK            | 2                | 12.45           | Keluar              |
 | ...             | ...              | ...             | ...                 |
 | Data Mining     | 1                | 13.15           | Masuk               |
-<br>
+
 6. Tambah user mahasiswa baru
     <br>`POST /tambahmahasiswa`
     <br>Body: NRP, Nama, Password
