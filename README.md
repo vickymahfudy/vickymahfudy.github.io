@@ -1,1 +1,0 @@
-# vickymahfudy.github.io
