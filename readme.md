@@ -45,7 +45,7 @@ API
     <br>`GET /rekappersemester/IDMATAKULIAH`
 
 | __nama_ruang__ | __pertemuan_ke__ | __jam_mulai__ | __jam_selesai__ |
-|:---------------|:-----------------|:--------------|:----------------|
+|----------------|------------------|---------------|-----------------|
 | IF-107a        | 1                | 10.00         | 12.30           |
 | LP2            | 2                | 10.00         | 12.30           |
 
@@ -72,7 +72,7 @@ API
     <br>`GET /rekapmahasiswasemester/NRP/SEMESTER`
 
 | __nama_matkul__ | __pertemuan_ke__ | __waktu_absen__ | __masuk_or_keluar__ |
-|-----------------|------------------|-----------------|
+|-----------------|------------------|-----------------|---------------------|
 | PBKK            | 1                | 10.03           | Masuk               |
 | PBKK            | 1                | 12.35           | Keluar              |
 | PBKK            | 2                | 10.13           | Masuk               |
