@@ -1584,12 +1584,25 @@
 
             //check to see if this current container is within viewport
             if (
-              elementBottomPosition >= windowTopPosition &&
-              elementTopPosition <= windowBottomPosition
+              /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+                navigator.userAgent
+              )
             ) {
-              $element.addClass("in-view");
+              if (
+                elementBottomPosition >= windowTopPosition &&
+                elementTopPosition <= windowBottomPosition
+              ) {
+                $element.addClass("in-view");
+              }
             } else {
-              $element.removeClass("in-view");
+              if (
+                elementBottomPosition >= windowTopPosition &&
+                elementTopPosition <= windowBottomPosition
+              ) {
+                $element.addClass("in-view");
+              } else {
+                $element.removeClass("in-view");
+              }
             }
           });
         }
