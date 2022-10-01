@@ -1557,6 +1557,9 @@
 
     <script>
       $(document).ready(function () {
+        var mobileview = window.matchMedia(
+          "only screen and (max-width: 768px)"
+        ).matches;
         /** ---------------------------- //
          *  @group viewport trigger script
          * for adding or removing classes from elements in view within viewport
@@ -1583,11 +1586,7 @@
             var elementBottomPosition = elementTopPosition + elementHeight;
 
             //check to see if this current container is within viewport
-            if (
-              /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-                navigator.userAgent
-              )
-            ) {
+            if (mobileview == true) {
               if (
                 elementBottomPosition >= windowTopPosition &&
                 elementTopPosition <= windowBottomPosition
