@@ -9939,10 +9939,10 @@ h6,
 
 .portfolio-item:hover .portfolio-btn {
   opacity: 1;
-  width: calc(100% - 50px);
-  height: calc(100% - 400px);
-  top: 200px;
-  left: 25px;
+  width: calc(70%);
+  height: calc(15%);
+  top: 45%;
+  left: 15%;
 }
 
 .testimonial-carousel .owl-dots {
@@ -10097,4 +10097,11 @@ h6,
   animation-duration: 1s;
   animation-fill-mode: both;
   backface-visibility: hidden;
+}
+
+.mobile-display{display:none}
+.desktop-display{display:block}
+@media (max-width:768px){
+.desktop-display {display:none}
+.mobile-display {display:block}
 }
