@@ -9993,8 +9993,8 @@ h6,
 
 /* Trigger  */
 .animated {
-  /* animation-duration: 1s; */
-  /* animation-fill-mode: both; */
+  animation-duration: 1s;
+  animation-fill-mode: both;
   }
 
 /* Optional Delays, change values here  */
@@ -10067,36 +10067,36 @@ h6,
 .left.in-view {  
   animation: fadeInLeft;
   animation-duration: 1s;
-  /* animation-fill-mode: both;
-  backface-visibility: hidden; */
+  animation-fill-mode: both;
+  backface-visibility: hidden;
 }
 
 .right.in-view {  
   animation: fadeInRight;
   animation-duration: 1s;
-  /* animation-fill-mode: both;
-  backface-visibility: hidden; */
+  animation-fill-mode: both;
+  backface-visibility: hidden;
 }
 
 .down.in-view {  
   animation: fadeInDown;
   animation-duration: 1s;
-  /* animation-fill-mode: both;
-  backface-visibility: hidden; */
+  animation-fill-mode: both;
+  backface-visibility: hidden;
 }
 
 .up.in-view {  
   animation: fadeInUp;
   animation-duration: 1s;
-  /* animation-fill-mode: both;
-  backface-visibility: hidden; */
+  animation-fill-mode: both;
+  backface-visibility: hidden;
 }
 
 .upbig.in-view {  
   animation: fadeInUpBig;
   animation-duration: 1s;
-  /* animation-fill-mode: both;
-  backface-visibility: hidden; */
+  animation-fill-mode: both;
+  backface-visibility: hidden;
 }
 
 .mobile-display{display:none}
