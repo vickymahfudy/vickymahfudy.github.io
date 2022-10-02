@@ -1557,7 +1557,7 @@
         var $window = $(window);
 
         function checkIfInView() {
-          var windowHeight = $window.height();
+          var windowHeight = $window.height() + 50;
           var windowTopPosition = $window.scrollTop();
           var windowBottomPosition = windowTopPosition + windowHeight;
 
